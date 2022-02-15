@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="N2020_SQL_DATA" id="9EC9FE11-BA0B-43D5-1A7B-270C1E24B359" version="3.5">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 19:50:54 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9EC9FE11-BA0B-43D5-1A7B-270C1E24B359</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hist-Escolar-Usuario" directorySegmentName="seg_0" id="98EFBE5E-B941-9AAD-FE47-7AEC3F3F603B">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 22:07:53 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<sourcePk>EA2E3230-E6C9-476C-6790-A48C1E6DF385</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>84F3B290-2D70-0462-5597-EFA0D559A556</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D344A61D-AC91-DFA7-498C-0DC6972A2D31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

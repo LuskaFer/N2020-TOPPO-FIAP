@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84F3B290-2D70-0462-5597-EFA0D559A556" name="T_SMO_USUARIO">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 19:59:54 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="5E5A8C18-A75C-E184-7429-7DA134AB7A93">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:12:43 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="C7172DE2-33AE-DBB9-7D08-5D68377FD262">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:21:43 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="D0997654-C66B-D54D-D7B0-05CE44CC6616">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:22:07 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="384EEEB0-29FB-216A-BB83-E12F261FC0A4">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:23:11 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nacionalidade" id="87C8ABC0-D194-5442-0D9E-0BB9BB38EF1D">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:23:31 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_estado_civil" id="3A759DA8-D284-F705-82C1-F01A78EFEFFC">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:23:41 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="0F84091B-0340-E373-1F9F-9E513BACF1CF">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:23:50 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="E880BF83-3A52-655C-42BC-B9253F43749D">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:24:17 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="57028341-967D-A2F5-DBA0-53597FB801D2">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:24:25 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="D010DCFF-15C8-6490-801E-77A1877617A8">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:24:37 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA2E3230-E6C9-476C-6790-A48C1E6DF385" name="T_SMO_USUARIO PK">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:16:32 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E5A8C18-A75C-E184-7429-7DA134AB7A93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

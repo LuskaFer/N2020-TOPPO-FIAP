@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43CE7E5B-2886-B7CB-5D42-BDF7FC1940BC" name="T_SMO_HIST_PROFISSIONAL">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:43:18 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_hist_profissional" id="7126BAF4-48C5-F741-C0E7-FBC4DF03BAAB">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:43:44 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cargo" id="C47B827E-91B6-F4D3-429A-0FB5B681969A">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:43:57 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_empresa" id="FCC6B4F8-71F6-AC00-F7B7-8FC9FEBF78FC">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:44:15 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="31C8B522-DD8E-F804-E97F-4F89F7241743">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:44:35 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="3F757581-F5DC-2B59-B620-4402D69E2CDB">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:44:43 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="8E1132D8-446E-87CB-AC8B-52B699BA6F3A">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:44:52 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="E7300474-DFAE-8D94-8E47-C3518A130366">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 22:10:47 UTC</createdTime>
+<generatorID>E7A7066A-6494-4977-833E-47171A2FAB12</generatorID>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<referedAttribute>5E5A8C18-A75C-E184-7429-7DA134AB7A93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA9159EF-C5D0-306C-5AA5-EA54E1F6953C" name="T_SMO_HIST_PROFISSIONAL PK">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:43:46 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7126BAF4-48C5-F741-C0E7-FBC4DF03BAAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="2FF703B5-60FE-9D2D-497F-E85B345C0EC1">
+<createdBy>Luska</createdBy>
+<modifiedBy>Luska</modifiedBy>
+<createdTime>2020-06-18 19:51:59 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showElements>true</showElements>
+<showKeys>true</showKeys>
+<showDynamicProperties>true</showDynamicProperties>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="24BF4529-BD4E-D4C1-DFA2-9E10252FD2FF" otype="Entity" vid="8A9841D6-6D68-C599-CFA7-24A7760F4A40">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="603" y="139" width="217" height="124"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="43CE7E5B-2886-B7CB-5D42-BDF7FC1940BC" otype="Entity" vid="E041A800-2ED3-1E26-FA35-032349056628">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="601" y="332" width="213" height="159"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="4DE9284B-689E-400C-590C-DB5B6B5408F8" otype="Note" vid="71E58933-B87B-3BC0-5A7A-C07CF1DD80A5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="339" y="401" width="203" height="90"/>
+<comment>Relação 
+Usuário-Histórico Escolar:
+Um usuário deve ter um único histórico escolar, e um histórico escolar deve estar associado a um único usuário.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="669C24CE-DE3A-EC5F-500D-67EAF280C37D" otype="Note" vid="82923515-C904-DA88-5C70-23ACF0948CB2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="610" y="533" width="323" height="152"/>
+<comment>FIAP - análise e Desenvolvimento de Sistemas Turma 1TDSF
+
+Grupo Toppo
+Componentes:		      	RM
+Artaxerxes Antônio		86180
+Carla Hilst			84998	
+Fernanda Ribeiro		85800
+Leandro Guidon		85756	
+Lucas Godoy			85216		</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="84F3B290-2D70-0462-5597-EFA0D559A556" otype="Entity" vid="BBBF4BC3-64BD-EE3B-A54A-571672AE7D65">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="94" y="125" width="170" height="189"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D344A61D-AC91-DFA7-498C-0DC6972A2D31" otype="Entity" vid="4EE19B67-5054-BC04-2162-B38FBA3AF3E3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="64" y="397" width="251" height="135"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F005BF82-ECD7-6897-9924-4CB4B0FB2AA3" otype="Note" vid="A2A11278-7DC0-9D25-74FA-AEFA122A5226">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="834" y="330" width="210" height="121"/>
+<comment>Relação
+Usuário-Histórico Profissional:
+Uma vez que o usuário pode estar em busca de seu primeiro emprego, não é obrigatório que ele tenha um histórico profissional; no entanto, um histórico profissional deve estar associado a um único usuário.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F339253D-F580-5767-74FC-9A986504C6F8" otype="Note" vid="D0DEF810-BAD5-54DB-6BBD-32D72D00F4D4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="841" y="141" width="204" height="142"/>
+<comment>Relação
+Usuário-Cargo Desejado:
+&quot;Como a busca por vagas é o propósito principal da ferramenta, um usuário deve estar associado a um ou mais cargos desejados.
+Já um cargo desejado pode estar associado a múltiplos usuários, já que ele contempla o nome de uma profissão.&quot;		</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="98EFBE5E-B941-9AAD-FE47-7AEC3F3F603B" otype="Relation" vid_source="BBBF4BC3-64BD-EE3B-A54A-571672AE7D65" vid_target="4EE19B67-5054-BC04-2162-B38FBA3AF3E3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="179" y="314"/>
+<point x="179" y="397"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B7A64745-2F08-BF49-98E2-F394B3550AE1" otype="Relation" vid_source="BBBF4BC3-64BD-EE3B-A54A-571672AE7D65" vid_target="8A9841D6-6D68-C599-CFA7-24A7760F4A40">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="264" y="201"/>
+<point x="603" y="201"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E7A7066A-6494-4977-833E-47171A2FAB12" otype="Relation" vid_source="BBBF4BC3-64BD-EE3B-A54A-571672AE7D65" vid_target="E041A800-2ED3-1E26-FA35-032349056628">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="264" y="250"/>
+<point x="601" y="372"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

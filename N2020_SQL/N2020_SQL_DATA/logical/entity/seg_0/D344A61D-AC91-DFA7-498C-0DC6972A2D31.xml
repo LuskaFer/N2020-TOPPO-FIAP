@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D344A61D-AC91-DFA7-498C-0DC6972A2D31" name="T_SMO_HIST_ESCOLAR">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:27:28 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_hist_escolar" id="AC7FD38D-4294-B71A-66E7-923D37853FC7">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:27:53 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nivel_escolaridade" id="EA1B6FD9-937A-C4B0-E426-A785B9692A4F">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:41:35 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_instituicao3" id="5A315CEF-D85F-5E37-FFD2-C35FDC92AF62">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:41:52 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_curso" id="BA337830-B609-E4C9-852F-8A8C03B728B2">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:42:03 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ano_conclusao" id="7F580FD8-3AC4-F729-1325-66DE6991CAD5">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:42:15 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="86ABCFD1-058E-9C53-FC38-71FBAFE0FD4A">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 22:07:53 UTC</createdTime>
+<generatorID>98EFBE5E-B941-9AAD-FE47-7AEC3F3F603B</generatorID>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<referedAttribute>5E5A8C18-A75C-E184-7429-7DA134AB7A93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01FE25E4-9D8C-1B44-9CE3-1F843A22313A" name="T_SMO_HIST_ESCOLAR PK">
+<createdBy>Luska</createdBy>
+<createdTime>2020-06-18 20:27:54 UTC</createdTime>
+<ownerDesignName>N2020_SQL_DATA</ownerDesignName>
+<engineerTo>
+<item key="90A16654-4524-0E43-0B0A-4A3A6E32FC42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC7FD38D-4294-B71A-66E7-923D37853FC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
